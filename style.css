@@ -1,0 +1,12 @@
+body{
+    display: inline;
+    }
+    h1{
+        text-align: center;
+    }
+    .frontside {
+        height: 125px;
+        width: 25%;
+        background: green;
+        margin: 10px;
+    }
