@@ -1,32 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <nav></nav>
-    
-    <h1>Flashcards!</h1>
-    <section id ="instructions">Instructions on game</section>
-    <br>
-    <br>
-    <br>
-    <div class = "frontside" id = "a"></div>
-    <div class = "frontside" id = "b"></div>
-    <div class = "frontside" id = "c"></div>
-    <div class = "frontside" id = "d"></div>
-    <div class = "frontside" id = "e"></div>
-    <div class = "frontside" id = "f"></div>
-    <div class = "frontside" id = "g"></div>
-    <div class = "frontside" id = "h"></div>
-    <div class = "frontside" id = "i"></div>
-    <div class = "frontside" id = "j"></div>
-    <div class = "backside" id = "l"></div>
-    
-    <script src ="script.js" id = "m"></script>
-</body>
+  </head>
+  <body>
+      <h1>Movie Trivia</h1>
+    <!-- starting page -->
+    <button id="modalBtn" class="button">Begin Game</button>
+<img src = "https://i.gifer.com/7VE.gif" id ="gift">
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <span class="closeBtn">Exit Game</span>
+        <h2>So, you think you know John Travolta?</h2>
+        <p>
+         <img src = "img/jt hairspray.jpg" id = "hairspray"> 
+         <p>John Travolta starred in this 2007 classic. What is the name of this movie?<br>
+             <input type="radio" id ="answer" name="question1"value="Carrie">Carrie
+             <input type="radio" id ="answer" name="question1"value="Wild Hogs">Wild Hogs
+             <input type="radio" id ="answer" name="question1"value="Hairspray">Hairspray
+             <input type="radio" id ="answer" name="question1"value="HSMusical">Highschool Musical 3<br>
+
+         </p> 
+         <img src = "img/jt snf.jpg" id = "snf">
+         <p>What is the name of the character that John Travolta played in Saturday Night fever? <br>
+                <input id ="answer" type="text" name="question2"value="answer here">
+         </p>
+         <img src ="img/takingpelham.jpg" id="pelham">
+         <p>John Travolta plays Ryder in The Taking of Pelham 123. One of his famous lines from the movie is<br> "You live, you die, you either go with the current or you fight it, but you all end up in the same ..." Finish this quote.<br>
+         <input type="radio" id ="answer" name="question3"value="boat">boat
+         <input type="radio" id ="answer" name="question3"value="pickle">pickle
+         <input type="radio" id ="answer" name="question3"value="place">place
+         <input type="radio" id ="answer" name="question3"value="donotknow">don't know
+         </p>
+
+         <img src= "img/pulpy.png" id="pulp">
+         <p>Name this movie...
+             <br>
+             <input type ="radio" id="answer" name="question4"value="dirtydancing">Dirty Dancing
+             <input type ="radio" id="answer" name="question4"value="nonpulp">Npn-pulp Fiction
+             <input type ="radio" id="answer" name="question4"value="meninblack">Men In Black
+             <input type ="radio" id="answer" name="question4"value="pulp fiction">Pulp Fiction
+
+         </p>
+
+            </p>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
