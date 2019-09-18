@@ -5,49 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Movie Trivia</title>
   </head>
   <body>
       <h1>Movie Trivia</h1>
     <!-- starting page -->
-    <button id="modalBtn" class="button">Begin Game</button>
+    <button id="beginGame" class="button">Begin Game</button>
 <img src = "https://i.gifer.com/7VE.gif" id ="gift">
-    <div id="simpleModal" class="modal">
-      <div class="modal-content">
+    <div id="johnTrivia" class="modal">
+      <div class="modal-content" name = "trivia">
         <span class="closeBtn">Exit Game</span>
         <h2>So, you think you know John Travolta?</h2>
-        <p>
+        <form class = "trivia" name ="trivia">
          <img src = "img/jt hairspray.jpg" id = "hairspray"> 
-         <p>John Travolta starred in this 2007 classic. What is the name of this movie?<br>
-             <input type="radio" id ="answer" name="question1"value="Carrie">Carrie
-             <input type="radio" id ="answer" name="question1"value="Wild Hogs">Wild Hogs
-             <input type="radio" id ="answer" name="question1"value="Hairspray">Hairspray
-             <input type="radio" id ="answer" name="question1"value="HSMusical">Highschool Musical 3<br>
+         <p id = "question">John Travolta starred in this 2007 classic. What is the name of this movie?</p><br>
+             <input type="radio" id ="answer" name="question1"value="Grease">Grease<br>
+             <input type="radio" id ="answer" name="question1"value="Wild Hogs">Wild Hogs<br>
+             <input type="radio" id ="answer" name="question1"value="Hairspray">Hairspray<br>
+             <input type="radio" id ="answer" name="question1"value="HSMusical">High School Musical 3<br>
 
-         </p> 
+            <br>
          <img src = "img/jt snf.jpg" id = "snf">
-         <p>What is the name of the character that John Travolta played in Saturday Night fever? <br>
-                <input id ="answer" type="text" name="question2"value="answer here">
-         </p>
+         <p id = "question">What is the name of the character that John Travolta played in Saturday Night Fever?</p> <br>
+         <input type="radio" id ="answer" name="question2"value="Tony">Tony<br>
+         <input type="radio" id ="answer" name="question2"value="rick">Rick<br>
+         <input type="radio" id ="answer" name="question2"value="john">John<br>
+         <input type="radio" id ="answer" name="question2"value="pickle">Pickle<br>
+         <br>
+         <br>
          <img src ="img/takingpelham.jpg" id="pelham">
-         <p>John Travolta plays Ryder in The Taking of Pelham 123. One of his famous lines from the movie is<br> "You live, you die, you either go with the current or you fight it, but you all end up in the same ..." Finish this quote.<br>
-         <input type="radio" id ="answer" name="question3"value="boat">boat
-         <input type="radio" id ="answer" name="question3"value="pickle">pickle
-         <input type="radio" id ="answer" name="question3"value="place">place
-         <input type="radio" id ="answer" name="question3"value="donotknow">don't know
-         </p>
+         <p id = "question">John Travolta plays Ryder in The Taking of Pelham 123. One of his famous lines from the movie is<br> "You live, you die, you either go with the current or you fight it, but you all end up in the same ..." Finish this quote.</p><br>
+         <br>
+         <input type="radio" id ="answer" name="question3"value="boat">boat<br>
+         <input type="radio" id ="answer" name="question3"value="pickle">pickle<br>
+         <input type="radio" id ="answer" name="question3"value="place">place<br>
+         <input type="radio" id ="answer" name="question3"value="donotknow">don't know<br>
+        <br>
 
          <img src= "img/pulpy.png" id="pulp">
-         <p>Name this movie...
+         <p id = "question">Name this movie...</p>
              <br>
-             <input type ="radio" id="answer" name="question4"value="dirtydancing">Dirty Dancing
-             <input type ="radio" id="answer" name="question4"value="nonpulp">Npn-pulp Fiction
-             <input type ="radio" id="answer" name="question4"value="meninblack">Men In Black
-             <input type ="radio" id="answer" name="question4"value="pulp fiction">Pulp Fiction
-
-         </p>
-
-            </p>
+             <input type ="radio" id="answer" name="question4"value="dirtydancing">Dirty Dancing<br>
+             <input type ="radio" id="answer" name="question4"value="nonpulp">Non-pulp Fiction<br>
+             <input type ="radio" id="answer" name="question4"value="meninblack">Men In Black<br>
+             <input type ="radio" id="answer" name="question4"value="Pulp Fiction">Pulp Fiction
+<br>
+        
+       
+<input id = "button" type = "button" value ="Submit" onClick = "check();">
+<div id = "aftersubmit">
+        <p id = "message"></p>
+        <p id = "number-correct"></p>
+    </div>
+</form>
       </div>
     </div>
 
