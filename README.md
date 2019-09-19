@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Welcome to Movie Trivia! 
 
+https://i.imgur.com/J3xurDF.gif
+
+Do you think you know a lot about John Travolta? Well, now you get the chance to find out! Click on the link below to open up the Movie Trivia: John Travolta Edition. Once you click 'Begin Game'you can scroll through the questions, answer them to the best of your ability, and submit! Once you hit submit you will find out your score. If you would like to play again, simply click exit game. 
+
+### Objectives
+1. Figure out how much you really know about John Travolta and the movies he was in.
+2. See fun pictures of John Travolta
+3. Fall more in **love** with John Travolta
 You can use the [editor on GitHub](https://github.com/l-dev/project1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/l-dev/project1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
