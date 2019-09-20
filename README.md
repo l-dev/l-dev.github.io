@@ -17,3 +17,5 @@ If you would like to play again, simply click exit game.
 2. See fun pictures of John Travolta
 3. Fall more in **love** with John Travolta
 
+## Technologies Used
+JavaScript, HTML, CSS
