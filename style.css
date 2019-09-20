@@ -32,7 +32,7 @@ h2 {
   height: 100%;
   width: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(46, 6, 6, 0.6);
 }
 .modal-content {
   background-color: white;
@@ -42,6 +42,9 @@ h2 {
   width: 80%;
   animation-name: modalopen;
   animation-duration: 1s;
+  scroll-behavior: smooth;
+  
+  
 }
 .closeBtn {
   color: rgb(244, 39, 39);
@@ -80,11 +83,11 @@ h2 {
   animation: text 3s 1;
   transform-origin: center bottom;
 }
-.nextQ{
-    padding: 35px;
-    margin: 60px;
-
+.answer{
+  scroll-behavior: smooth;
 }
+
+
 
 @keyframes text {
   0% {
