@@ -1,19 +1,4 @@
 
-//display the score with message in modal
-
-// let score = 0;
-
-// for (let i = 0; i < johnTQuestions.length; i++){
-//     // // let response = document.write(johnTQuestions[i].question);{
-//         document.write(johnTQuestions[i].question)
-//     }
-//         alert ("correct");
-//     }else {
-//         alert ("wrong");
-//     }
-// }
-// alert ("you got" + score + "/" + johnTQuestions.length)
-
 //keeping score for written in questions on modal
 function check() {
   let question1 = document.trivia.question1.value;
@@ -70,5 +55,3 @@ function check() {
   document.getElementById("number-correct").innerHTML =
     "You got " + correct + "/7 correct.";
 }
-//let wow = document.getElementById("answer")
-//console.log(wow.type)
