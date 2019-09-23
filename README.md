@@ -6,7 +6,7 @@
 ## Do you think you know a lot about John Travolta? 
 Well, now you get the chance to find out! <br>
 Click on the link below to open up the Movie Trivia: John Travolta Edition. <br>
-<br> https://l-dev.github.io-trivia <br>
+<br> https://l-dev.github.io <br>
 <br>
 Once you click 'Begin Game'you can scroll through the questions, answer them to the best of your ability, and submit! 
 Once you hit submit you will find out your score. 
